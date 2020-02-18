@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-basic-server",
+  "private": true,
+  "scripts": {
+    "test": "gulp test",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-spa": "~1.0.2",
+    "chalk": "~1.0.0",
+    "concat-stream": "~1.5.0",
+    "del": "~1.2.0",
+    "gulp": "~3.9.0",
+    "gulp-filter": "~2.0.2",
+    "gulp-flatten": "~0.0.4",
+    "gulp-load-plugins": "~0.10.0",
+    "gulp-mocha": "~3.0.1",
+    "gulp-rename": "~1.2.2",
+    "gulp-replace": "~0.5.3",
+    "gulp-size": "~1.2.1",
+    "gulp-sourcemaps": "~1.5.2",
+    "gulp-util": "~3.0.5",
+    "http-proxy-middleware": "~0.0.5",
+    "main-bower-files": "^2.13.3",
+    "merge-stream": "~0.1.7",
+    "mocha": "~3.2.0",
+    "mocha-jenkins-reporter": "^0.4.2",
+    "mocha-junit-reporter": "~1.12.1",
+    "nodemon": "^2.0.2",
+    "require-dir": "~0.3.0",
+    "supertest": "^2.0.1",
+    "wrench": "~1.5.8"
+  }
+}
