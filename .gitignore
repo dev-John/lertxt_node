@@ -34,16 +34,6 @@ npm-debug.log
 testem.log
 /typings
 
-# System Files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Devskiller
-test-results.xml
-
-### Devskiller entries
-###
 ### Please do not add anything below this line, your changes will be overwritten
 ###
 *.iws
